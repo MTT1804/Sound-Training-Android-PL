@@ -8,7 +8,7 @@ Autor: Mateusz Tyl 2024-2025
 Wersja 1.0
 
 Nie będzie już rozwijana, trwają prace nad 2.0
-### Plik .apk do zainstalowania aplikacji do pobrania w "Releases". Należy go pobrać na telefon i uruchomić proces instalacji.
+### Plik .apk do zainstalowania aplikacji do pobrania w "Releases". Należy go pobrać na telefon i uruchomić proces instalacji. Minimalna wersja Androida - 10
 
 ![main](screenshots/main.png)  
 

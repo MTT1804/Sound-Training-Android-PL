@@ -1,9 +1,62 @@
-Aplikacja do treningu słuchu wersja 0.9. Obecnie w budowie.
+# SoundTraining
 
-Wersja językowa polska
+SoundTraining to rozbudowana aplikacja na systemy Android służąca do ćwiczeń słuchu. Przeznaczona jest do rehabilitacji osób z implantami słuchowymi. Dzięki różnorodnym modułom użytkownik może ćwiczyć rozpoznawanie dźwięków otoczenia, mowy, częstotliwości, generowanie tonów, syntezę mowy oraz rozwiązywać zadania tekstowe i obrazkowe.
 
-Przeznaczona na system operacyjny Android o wersji 10 i nowszej.
-![image](https://github.com/MTT1804/Sound-training/assets/162719500/59c0084a-59eb-4f36-9d38-83a4d648ee00)
-![image](https://github.com/MTT1804/Sound-training/assets/162719500/a17918e6-4bbb-4285-8ee8-baee7996a98a)
+
+Autor: Mateusz Tyl 2024-2025
+
+Wersja 1.0
+
+Nie będzie już rozwijana, trwają prace nad 2.0
+### Plik .apk do zainstalowania aplikacji do pobrania w "Releases". Należy go pobrać na telefon i uruchomić proces instalacji.
+
+![main](screenshots/main.png)  
+
+## Jak korzystać
+
+Uwaga - moduły podzielone są na różne warianty (tekst/grafika) i poziom trudności (ilość elementów do wyboru). Można to wybrać po kliknięciu na przycisk modułu.
+### Moduł “Dźwięk”  
+- Przejdź do zakładki Dźwięk  
+- Naciśnij przycisk „Odtwórz”, aby usłyszeć dźwięk  
+- Naciśnij „Stop”, aby zatrzymać odtwarzanie (w razie potrzeby)
+- Dokonaj właściwego wyboru na planszy 
+- Naciśnij „Dalej”, aby wybrać kolejny dźwięk (po dokonaniu wyboru)
+
+![sound](screenshots/sound.png)  
+
+### Moduł “Zgadywanie częstotliwości”  
+- Naciśnij „Odtwórz”, aby usłyszeć ton  
+- Naciśnij „Stop”, aby zatrzymać odtwarzanie (w razie potrzeby)
+- Wybierz na pasku odpowiednią częstotliwość jaką usłyszałeś
+
+![freq1](screenshots/freq1.png)  
+### Moduł “Generator częstotliwości”  
+- Przesuń suwak, aby ustawić żądaną częstotliwość  
+- Naciśnij „Odtwórz”, aby usłyszeć ton  
+- Naciśnij „Stop”, aby zatrzymać odtwarzanie
+
+![freq2](screenshots/freq2.png)  
+### Moduł “Rozpoznawanie mowy”  
+- Przejdź do zakładki Mowa  
+- Naciśnij przycisk „Odtwórz”, aby usłyszeć wypowiedź syntezatora mowy
+- Jeżeli wypowiedź brzmi nienaturalnie, sprawdź w ustawieniach telefonu czy syntezator mowy jest ustawiony poprawnie (zwłaszcza język)
+- Dokonaj właściwego wyboru na planszy 
+- Naciśnij „Dalej”, aby wybrać kolejne słowo (po dokonaniu wyboru)
+
+![speech1](screenshots/speech1.png)  
+### Moduł “Syntezator mowy”  
+- Przejdź do zakładki Mowa  
+- Wpisz tekst w polu tekstowym  
+- Naciśnij „Odtwórz”, aby aplikacja przeczytała tekst
+
+![speech2](screenshots/speech2.png)  
+
+---
+
+## Statystyki i postępy
+
+Aplikacja automatycznie mierzy czas każdej sesji i zapisuje liczbę zdobytych punktów. Podsumowanie dostępne jest w ekranie statystyk.
+
+---
 
 

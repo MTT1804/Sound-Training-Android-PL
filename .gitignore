@@ -1,0 +1,63 @@
+# Android Studio / Gradle
+.gradle/
+build/
+*/build/
+!gradle/wrapper/gradle-wrapper.jar
+/captures/
+/.externalNativeBuild/
+gradle.properties
+
+# Local configuration
+local.properties
+*.iml
+.idea/
+.DS_Store
+
+# Keystore files
+*.jks
+*.keystore
+
+# Generated files
+*.apk
+*.ap_
+*.aar
+*.jar
+*.keystore
+
+# Signing files
+*.pem
+*.p12
+
+# Proguard
+proguard/
+
+# NDK
+obj/
+*.so
+
+# Kotlin
+*.kotlin_module
+
+# JetBrains
+*.iws
+out/
+
+# Log / Debug
+*.log
+
+# Node / Yarn (if any)
+node_modules/
+
+# Misc
+*.orig
+
+# IDE-specific excludes
+/.idea/caches/
+/.idea/libraries/
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# CMake / C++ build
+/.cxx/

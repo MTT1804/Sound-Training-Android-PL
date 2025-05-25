@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="dzwiek">
+        <item>2x1 tryb tekstowy</item>
+        <item>2x2 tryb tekstowy</item>
+        <item>3x3 tryb tekstowy</item>
+        <item>2x1 tryb obrazkowy</item>
+        <item>2x2 tryb obrazkowy</item>
+        <item>3x3 tryb obrazkowy</item>
+        <item>Tryb wpisywanie</item>
+    </array>
+    <array name="mowa">
+        <item>2x1 tryb tekstowy</item>
+        <item>2x2 tryb tekstowy</item>
+        <item>3x3 tryb tekstowy</item>
+        <item>2x1 tryb obrazkowy</item>
+        <item>2x2 tryb obrazkowy</item>
+        <item>3x3 tryb obrazkowy</item>
+        <item>Tryb wpisywanie</item>
+        <item>Syntezator mowy</item>
+    </array>
+    <array name="czestotliwosc">
+        <item>Zgadnij częstotliwość</item>
+        <item>Generator częstotliwości</item>
+    </array>
+    <array name="podobne_slowa">
+        <item>2x1 tryb tekstowy(baza słów 1)</item>
+        <item>2x2 tryb tekstowy(baza słów 1)</item>
+        <item>2x1 tryb tekstowy(baza słów 2)</item>
+        <item>2x2 tryb tekstowy(baza słów 2)</item>
+    </array>
+    <array name="opowiadania">
+        <item>2x1 tryb obrazkowy</item>
+        <item>2x2 tryb obrazkowy</item>
+        <item>3x3 tryb obrazkowy</item>
+    </array>
+    <string-array name="sample_rate_entries">
+        <item>44,1 kHz</item>
+        <item>48 kHz</item>
+        <item>96 kHz</item>
+    </string-array>
+    <string-array name="sample_rate_values">
+        <item>44100</item>
+        <item>48000</item>
+        <item>96000</item>
+    </string-array>
+    <string-array name="buffer_size_entries">
+        <item>Niski</item>
+        <item>Średni</item>
+        <item>Wysoki</item>
+    </string-array>
+    <string-array name="buffer_size_values">
+        <item>1024</item>
+        <item>4096</item>
+        <item>16384</item>
+    </string-array>
+    <string-array name="difficulty_entries">
+        <item>Łatwy</item>
+        <item>Średni</item>
+        <item>Trudny</item>
+    </string-array>
+    <string-array name="difficulty_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="tts_lang_entries">
+        <item>Polski</item>
+        <item>Angielski</item>
+        <item>Niemiecki</item>
+    </string-array>
+    <string-array name="tts_lang_values">
+        <item>pl-PL</item>
+        <item>en-US</item>
+        <item>de-DE</item>
+    </string-array>
+    <string-array name="session_limit_entries">
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>15 min</item>
+        <item>Brak limitu</item>
+    </string-array>
+    <string-array name="session_limit_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="time_units_entries">
+        <item>Sekundy</item>
+        <item>Minuty</item>
+        <item>Godziny</item>
+    </string-array>
+    <string-array name="time_units_values">
+        <item>s</item>
+        <item>min</item>
+        <item>h</item>
+    </string-array>
+    <string-array name="filter_sets_entries">
+        <item>Podstawowy</item>
+        <item>Zaawansowany</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="filter_sets_values">
+        <item>basic</item>
+        <item>advanced</item>
+        <item>custom</item>
+    </string-array>
+    <string-array name="filter_sets_default">
+        <item>basic</item>
+    </string-array>
+</resources>

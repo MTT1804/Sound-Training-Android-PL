@@ -1,0 +1,11 @@
+<!-- res/drawable/edittext_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="16dp" /> <!-- Zaokrąglenie krawędzi -->
+    <solid android:color="#F0F0F0" /> <!-- Kolor tła -->
+    <padding
+        android:left="16dp"
+        android:right="16dp"
+        android:top="16dp"
+        android:bottom="16dp" /> <!-- Dodatkowy margines -->
+</shape>

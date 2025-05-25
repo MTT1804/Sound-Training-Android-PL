@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="button_0"/>
+    <item type="id" name="button_1"/>
+    <item type="id" name="button_2"/>
+    <item type="id" name="button_3"/>
+    <item type="id" name="button_4"/>
+    <item type="id" name="button_5"/>
+    <item type="id" name="button_6"/>
+    <item type="id" name="button_7"/>
+    <item type="id" name="button_8"/>
+    <item type="id" name="button_9"/>
+    <item type="id" name="inputTextFieldInfo"/>
+    <item type="id" name="inputTextField"/>
+    <item type="id" name="inputTextFieldSynthesizer"/>
+</resources>

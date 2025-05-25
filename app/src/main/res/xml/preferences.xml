@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="Ustawienia aplikacji">
+
+        <SwitchPreferenceCompat
+            android:key="dark_mode"
+            android:title="Tryb ciemny"
+            android:defaultValue="false" />
+
+        <SwitchPreferenceCompat
+            android:key="single_channel"
+            android:title="Mono / Stereo"
+            android:defaultValue="false" />
+
+        <ListPreference
+            android:key="sample_rate"
+            android:title="Częstotliwość próbkowania"
+            android:entries="@array/sample_rate_entries"
+            android:entryValues="@array/sample_rate_values"
+            android:defaultValue="44100"
+            android:summary="%s" />
+
+        <ListPreference
+            android:key="buffer_size"
+            android:title="Rozmiar bufora audio"
+            android:entries="@array/buffer_size_entries"
+            android:entryValues="@array/buffer_size_values"
+            android:defaultValue="4096"
+            android:summary="%s" />
+
+        <Preference
+            android:key="tts_settings"
+            android:title="Ustawienia syntezy mowy"
+            android:summary="Otwórz ustawienia TTS w systemie" />
+
+        <EditTextPreference
+            android:key="UPPER_FREQ"
+            android:title="Górna granica generowania częstotliwości"
+            android:defaultValue="8000"
+            android:inputType="number"
+            android:summary="%s" />
+
+        <EditTextPreference
+            android:key="LOWER_FREQ"
+            android:title="Dolna granica generowania częstotliwości"
+            android:defaultValue="100"
+            android:inputType="number"
+            android:summary="%s" />
+
+        <SwitchPreferenceCompat
+            android:key="vibration_feedback"
+            android:title="Wibracje przy odpowiedziach"
+            android:defaultValue="true" />
+
+        <Preference
+            android:key="export_stats"
+            android:title="Eksport statystyk"
+            android:summary="Zapisz dane do CSV" />
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

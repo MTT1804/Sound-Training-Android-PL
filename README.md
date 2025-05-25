@@ -56,7 +56,7 @@ Uwaga - moduły podzielone są na różne warianty (tekst/grafika) i poziom trud
 - Naciśnij „Odtwórz”, aby aplikacja przeczytała tekst
 - Wybierz zdjęcie które jest opisywane
 - Naciśnij „Dalej”, aby przejść do kolejnego ćwiczenia
-
+![stories](screenshots/stories.png)  
 
 ---
 
